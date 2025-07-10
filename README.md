@@ -1,12 +1,81 @@
-# React + Vite
+Solana Wallet Adapter:
+----------------------
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based Solana Wallet Adapter application that enables users to connect to a Solana wallet, request Devnet SOL, display their SOL balance, send transactions, and sign messages. It leverages the @solana/wallet-adapter-react and @solana/web3.js libraries to interact with the Solana blockchain on the Devnet network.
+Features
 
-Currently, two official plugins are available:
+============================
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Connect to Wallet: Seamlessly connect to Solana wallets like Phantom or Solflare.
+Request Devnet SOL: Airdrop Devnet SOL to your wallet for testing.
+Show SOL Balance: Display the current SOL balance of the connected wallet.
+Send Transaction: Transfer SOL to another Solana address.
+Sign Message: Sign a custom message for authentication or verification purposes.
 
-## Expanding the ESLint configuration
+===========================
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Prerequisites
+
+Node.js: Version 14.x or higher.
+npm or yarn: Package manager for installing dependencies.
+Solana Wallet: A browser extension wallet (e.g., Phantom or Solflare) set to Devnet.
+Code Editor: VS Code or any editor of your choice.
+Basic Knowledge: Familiarity with React, TypeScript/JavaScript, and Solana blockchain concepts.
+
+
+=============================
+
+Installation
+
+Clone the Repository:
+git clone https://github.com/Chandands1/Dapp-solana-wallet-adapter.git
+cd Dapp-solana-wallet-adapter
+
+
+Install Dependencies:Using npm:
+npm install
+
+
+
+Install Solana Wallet Adapter Libraries:Ensure the following packages are installed:
+npm install @solana/web3.js @solana/wallet-adapter-base @solana/wallet-adapter-react @solana/wallet-adapter-react-ui @solana/wallet-adapter-wallets bs58
+
+
+Start the Application:
+npm run dev
+
+The app will be available at http://localhost:5173.
+
+
+
+
+================================
+
+
+
+Running the Application
+
+Ensure your wallet is set to Devnet.
+Open http://localhost:5173 in a browser with a Solana wallet extension installed.
+Click the WalletMultiButton to connect your wallet.
+Use the provided buttons to:
+Request a Devnet SOL airdrop.
+View your SOL balance.
+Send SOL to another address.
+Sign a custom message.
+
+=========================
+
+Resources
+
+Solana Wallet Adapter Documentation
+Solana Web3.js Documentation
+Solana Devnet
+Phantom Wallet
+Solflare Wallet
+====================
+
+Contributing
+Contributions are welcome! Please submit a pull request or open an issue on the GitHub repository.
+License
+This project is licensed under the MIT License.
