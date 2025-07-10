@@ -17,7 +17,7 @@ export function RequestAirdrop() {
     <div>
       <input id="amount" type="text" placeholder="Amount..." /> <br />
       <button onClick={requestAirdrop}>Request Airdrop</button> <br /> <br />
-      <div> {wallet.publicKey?.toBase58()}</div>
+      
      
     </div>
   );
