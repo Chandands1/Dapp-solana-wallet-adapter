@@ -15,6 +15,7 @@ import './App.css'
 import { RequestAirdrop } from './RequestAirdrop';
 import { ShowBalance } from './ShowBalance';
 import { SendTokens } from './SendTokens';
+import { SignMessage } from './SignMessage';
 
 function App() {
 
@@ -31,15 +32,20 @@ function App() {
                   <div>
                      <WalletDisconnectButton />
                   </div>
-                  {/* <div>
+                  <div>
                     <RequestAirdrop />
                   </div>
 
                   <div>
                     <ShowBalance />
-                  </div> */}
+                  </div>
                   <div>
                     < SendTokens />
+                  </div>
+                  <br />
+                  <div>
+                    < SignMessage />
+
                   </div>
                    
                 </WalletModalProvider>
