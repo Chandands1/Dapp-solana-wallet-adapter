@@ -56,7 +56,7 @@ npm install --save \
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/solana-token-dapp.git
+   git clone https://github.com/chandands1/Dapp-solana-wallet-adapter.git
    cd solana-token-dapp
    ```
 
