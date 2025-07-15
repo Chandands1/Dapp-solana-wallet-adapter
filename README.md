@@ -57,7 +57,7 @@ npm install --save \
 
    ```bash
    git clone https://github.com/chandands1/Dapp-solana-wallet-adapter.git
-   cd solana-token-dapp
+   cd Dapp-solana-wallet-adapter
    ```
 
 2. **Install dependencies**
