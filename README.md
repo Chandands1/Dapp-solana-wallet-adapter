@@ -1,81 +1,99 @@
-Solana Wallet Adapter:
-----------------------
+# 🚀 Solana Token DApp
 
-This project is a React-based Solana Wallet Adapter application that enables users to connect to a Solana wallet, request Devnet SOL, display their SOL balance, send transactions, and sign messages. It leverages the @solana/wallet-adapter-react and @solana/web3.js libraries to interact with the Solana blockchain on the Devnet network.
-Features
+A decentralized application (DApp) built with React and the Solana Wallet Adapter that allows users to:
+- Connect their Solana wallet
+- Request SOL from Devnet
+- Send SOL to another wallet
+- Check their balance
+- Sign a message
 
-============================
+---
 
-Connect to Wallet: Seamlessly connect to Solana wallets like Phantom or Solflare.
-Request Devnet SOL: Airdrop Devnet SOL to your wallet for testing.
-Show SOL Balance: Display the current SOL balance of the connected wallet.
-Send Transaction: Transfer SOL to another Solana address.
-Sign Message: Sign a custom message for authentication or verification purposes.
+## 📚 About the Project
 
-===========================
+This project was created as part of the **100xDevs Cohort 3.0 - Web3 Week 8**, where we learned how DApps function and how to integrate wallets using the Solana Wallet Adapter.
 
-Prerequisites
+### 🔗 What is a DApp?
 
-Node.js: Version 14.x or higher.
-npm or yarn: Package manager for installing dependencies.
-Solana Wallet: A browser extension wallet (e.g., Phantom or Solflare) set to Devnet.
-Code Editor: VS Code or any editor of your choice.
-Basic Knowledge: Familiarity with React, TypeScript/JavaScript, and Solana blockchain concepts.
+A **DApp (Decentralized Application)** is similar to any app you use—but instead of running on centralized servers, it runs on a **blockchain**, giving users **control**, **transparency**, and **censorship resistance**.
 
+### 💳 Solana Wallet Adapter
 
-=============================
+The **Solana Wallet Adapter** acts as a bridge between your Solana wallet and the DApp, allowing you to:
+- Connect your wallet
+- Interact with the blockchain
+- Sign transactions and messages
 
-Installation
+---
 
-Clone the Repository:
-git clone https://github.com/Chandands1/Dapp-solana-wallet-adapter.git
-cd Dapp-solana-wallet-adapter
+## 🧰 Tech Stack
 
+- **React** (Vite)
+- **Solana Web3.js**
+- **Solana Wallet Adapter**
+- **JavaScript / JSX**
 
-Install Dependencies:Using npm:
-npm install
+---
 
+## 📦 Dependencies
 
+Install the following packages:
 
-Install Solana Wallet Adapter Libraries:Ensure the following packages are installed:
-npm install @solana/web3.js @solana/wallet-adapter-base @solana/wallet-adapter-react @solana/wallet-adapter-react-ui @solana/wallet-adapter-wallets bs58
+```bash
+npm install --save \
+  @solana/web3.js \
+  @solana/wallet-adapter-base \
+  @solana/wallet-adapter-react \
+  @solana/wallet-adapter-react-ui \
+  @solana/wallet-adapter-wallets \
+  react
+```
 
+---
 
-Start the Application:
-npm run dev
+## ⚙️ How to Run
 
-The app will be available at http://localhost:5173.
+1. **Clone the repository**
 
+   ```bash
+   git clone https://github.com/yourusername/solana-token-dapp.git
+   cd solana-token-dapp
+   ```
 
+2. **Install dependencies**
 
+   ```bash
+   npm install
+   ```
 
-================================
+3. **Run the development server**
 
+   ```bash
+   npm run dev
+   ```
 
+4. **Open in browser**
 
-Running the Application
+   Navigate to [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal).
 
-Ensure your wallet is set to Devnet.
-Open http://localhost:5173 in a browser with a Solana wallet extension installed.
-Click the WalletMultiButton to connect your wallet.
-Use the provided buttons to:
-Request a Devnet SOL airdrop.
-View your SOL balance.
-Send SOL to another address.
-Sign a custom message.
+---
 
-=========================
+## 💡 Features
 
-Resources
+- 🔗 **Connect Wallet** – using Phantom or any other supported wallet
+- 💸 **Request Airdrop** – get SOL from Devnet
+- 📤 **Send Tokens** – transfer SOL to any valid address
+- 📊 **Check Balance** – see current SOL balance
+- ✍️ **Sign Message** – sign and verify messages using wallet
 
-Solana Wallet Adapter Documentation
-Solana Web3.js Documentation
-Solana Devnet
-Phantom Wallet
-Solflare Wallet
-====================
+---
 
-Contributing
-Contributions are welcome! Please submit a pull request or open an issue on the GitHub repository.
-License
-This project is licensed under the MIT License.
+## 🧪 Network
+
+> The app runs on **Solana Devnet**. Make sure your wallet is set to Devnet before testing.
+
+---
+
+## 🙌 Acknowledgments
+
+Thanks to [Harkirat Singh](https://twitter.com/kirat_tw) and the [100xDevs](https://100xdevs.com) community for providing guidance and resources.
